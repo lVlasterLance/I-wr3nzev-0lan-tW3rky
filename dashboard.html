@@ -2,15 +2,12 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <!-- meta data -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <title>Add New Contract</title>
+    <title>Dashboard</title>
 
-    <!-- Google font -->
+    <!-- Google font-->
     <link
         href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -18,35 +15,36 @@
     <!-- Linear Icon css -->
     <link rel="stylesheet" href="assets/css/linearicon.css">
 
+    <!-- remixicon css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/remixicon.css">
+
     <!-- Fontawesome css -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/font-awesome.css">
 
-    <!-- Themify icon css -->
+    <!-- Themify icon css-->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/themify.css">
 
-    <!--Dropzon css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors/dropzone.css">
+    <!-- ratio css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/ratio.css">
 
     <!-- Feather icon css-->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css">
 
-    <!-- remixicon css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/remixicon.css">
-
-    <!-- Select2 css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
-
     <!-- Plugins css -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors/chartist.css">
+
+    <!-- datepicker css-->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/date-picker.css">
 
-    <!-- Bootstrap css -->
+    <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
 
-    <!-- Bootstrap-tag input css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap-tagsinput.css">
+    <!-- vector map css  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vector-map.css">
+
+    <!-- slick slider css-->
+    <link rel="stylesheet" href="assets/css/vendors/slick.css">
 
     <!-- App css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -59,9 +57,9 @@
     </div>
     <!-- tap on tap end -->
 
-    <!-- page-wrapper start -->
+    <!-- page-wrapper Start-->
     <div class="page-wrapper compact-wrapper" id="pageWrapper">
-               <!-- Page Header Start-->
+        <!-- Page Header Start-->
         <div class="page-header">
             <div class="header-wrapper m-0">
                 <div class="header-logo-wrapper p-0">
@@ -337,186 +335,272 @@
             </div>
             <!-- Page Sidebar Ends-->
 
+            <!-- Reports Section Start -->
             <div class="page-body">
-
-                <!-- New Product Add Start -->
+                <!-- Container-fluid starts-->
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-sm-8 m-auto">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="card-header-2">
-                                                <h5>Contract Information</h5>
-                                            </div>
-
-                                            <form class="theme-form theme-form-2 mega-form">
-                                                <div class="mb-4 row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Employee
-                                                        Name</label>
-                                                    <div class="col-sm-8">
-                                                        <input class="form-control" type="text"
-                                                            placeholder="Employee Name">
-                                                    </div>
-                                                </div>
-
-                                                <div class="mb-4 row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Contract
-                                                        Type</label>
-                                                    <div class="col-sm-8">
-                                                        <select class="js-example-basic-single w-100" name="state">
-                                                            <option>Regular</option>
-                                                            <option>Contractual</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-
-                                                <div class="mb-4 row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Signed Date</label>
-                                                    <div class="col-sm-8">
-                                                        <div class="bs-example">
-                                                            <input type="text" class="form-control"
-                                                                placeholder="Date" id="#inputTag"
-                                                                data-role="tagsinput">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">E-Registration Checked And Cleared?</label>
-                                                    <div class="col-sm-8">
-                                                        <label class="switch">
-                                                            <input type="checkbox" checked=""><span
-                                                                class="switch-state"></span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">POEA Contract Processed?</label>
-                                                    <div class="col-sm-8">
-                                                        <label class="switch">
-                                                            <input type="checkbox" checked=""><span
-                                                                class="switch-state"></span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Full Text Of Standdard Terms & Conditioning Signed?</label>
-                                                    <div class="col-sm-8">
-                                                        <label class="switch">
-                                                            <input type="checkbox" checked=""><span
-                                                                class="switch-state"></span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Drug And Alcohol?</label>
-                                                    <div class="col-sm-8">
-                                                        <label class="switch">
-                                                            <input type="checkbox"><span
-                                                                class="switch-state"></span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Onboard Complain?</label>
-                                                    <div class="col-sm-8">
-                                                        <label class="switch">
-                                                            <input type="checkbox" checked=""><span
-                                                                class="switch-state"></span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Duty Of Confidentiality And Loyalty?</label>
-                                                    <div class="col-sm-8">
-                                                        <label class="switch">
-                                                            <input type="checkbox"><span
-                                                                class="switch-state"></span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Environmental Compliance?</label>
-                                                    <div class="col-sm-8">
-                                                        <label class="switch">
-                                                            <input type="checkbox" checked=""><span
-                                                                class="switch-state"></span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
+                        <!-- Salery Summy star-->
+                        <div class="col-xl-8 col-lg-12 col-md-6">
+                            <div class="card o-hidden">
+                                <div class="card-header border-0 pb-1">
+                                    <div class="card-header-title">
+                                        <h4>Wage Summary</h4>
                                     </div>
-
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <form class="theme-form theme-form-2 mega-form">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="row">
-                                                            <label class="form-label-title col-sm-3 mb-0">Remarks</label>
-                                                            <div class="col-sm-8">
-                                                                <div id="editor"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="card-header-2">
-                                                <h5>Files</h5>
-                                            </div>
-
-                                            <form class="theme-form theme-form-2 mega-form">
-                                                <div class="mb-4 row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Result</label>
-                                                    <div class="col-sm-8">
-                                                        <input class="form-control form-choose" type="file"
-                                                            id="formFile" multiple>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row align-items-center">
-                                                    <label class="form-label-title col-sm-4 mb-0">Supplemental Docs</label>
-                                                    <div class="col-sm-8">
-                                                        <input class="form-control form-choose" type="file"
-                                                            id="formFileMultiple1" multiple>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-animation w-100 justify-content-center" type="submit">Submit</button>
-                                    
+                                </div>
+                                <div class="card-body p-0">
+                                    <div id="saler-summary"></div>
                                 </div>
                             </div>
                         </div>
+                        <!-- Salery Summy end-->
+
+                        <!-- Employ Salary  start-->
+                        <div class="col-xl-4 col-lg-12 col-md-6">
+                            <div class="h-100">
+                                <div class="card o-hidden">
+                                    <div class="card-header border-0 pb-1">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="card-header-title">
+                                                <h4>Employees Satisfied</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <div class="pie-chart">
+                                            <div id="employ-salary"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Employ Salary end-->
+
+                        <!-- Expenses star-->
+                        <div class="col-xl-4 col-lg-12 col-md-6">
+                            <div class="card o-hidden">
+                                <div class="card-header border-0 pb-1">
+                                    <div class="card-header-title">
+                                        <h4>Dispatched</h4>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div id="expenses-cart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Expenses end-->
+
+                        <!-- Sales / Purchase chart start -->
+                        <div class="col-xl-8 col-lg-12 col-md-6">
+                            <div class="card">
+                                <div class="card-header border-0 pb-1">
+                                    <div class="card-header-title">
+                                        <h4>Hired</h4>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div id="sales-purchase-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sales / Purchase chart end -->
+
+                        <!-- Sales / Purchase Return star-->
+                        <div class="col-12">
+                            <div class="card o-hidden">
+                                <div class="card-header border-0 pb-1">
+                                    <div class="card-header-title">
+                                        <h4>Hired / Dispatched</h4>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div id="sales-purchase-return-cart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sales / Purchase Return end-->
+
+                        <!-- Booking history start-->
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header border-0 pb-1">
+                                    <div class="card-header-title">
+                                        <h4>Dispatched History</h4>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <div>
+                                        <div class="table-responsive">
+                                            <table class="user-table list-table table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Dispatched Id</th>
+                                                        <th>Name</th>
+                                                        <th>Date</th>
+                                                        <th>Emp No.</th>
+                                                        <th>Options</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>14783112</td>
+                                                        <td>Gray Brody</td>
+                                                        <td>20-05-2020</td>
+                                                        <td>369</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="order-detail.html">
+                                                                        <span class="ri-eye-line"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-pencil"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-trash"></span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>87541221</td>
+                                                        <td>Perez Alonzo</td>
+                                                        <td>07-12-2020</td>
+                                                        <td>546</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="order-detail.html">
+                                                                        <span class="ri-eye-line"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-pencil"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-trash"></span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>213514462</td>
+                                                        <td>woters maxine</td>
+                                                        <td>12-12-2020</td>
+                                                        <td>369</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="order-detail.html">
+                                                                        <span class="ri-eye-line"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-pencil"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-trash"></span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>235896144</td>
+                                                        <td>christian</td>
+                                                        <td>16-05-2020</td>
+                                                        <td>4699</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="order-detail.html">
+                                                                        <span class="ri-eye-line"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-pencil"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-trash"></span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>461178242</td>
+                                                        <td>Lane Skylar</td>
+                                                        <td>25-10-2020</td>
+                                                        <td>1342</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="order-detail.html">
+                                                                        <span class="ri-eye-line"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-pencil"></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="lnr lnr-trash"></span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Booking history  end-->
                     </div>
                 </div>
-                <!-- New Product Add End -->
+                <!-- Container-fluid Ends-->
 
-                <!-- footer Start -->
+                <!-- footer start-->
                 <div class="container-fluid">
                     <footer class="footer">
                         <div class="row">
                             <div class="col-md-12 footer-copyright text-center">
-                                <p class="mb-0">Copyright 2022 © Fastkart theme by pixelstrap</p>
+                                <p class="mb-0">Copyright 2023 © Boss Prog</p>
                             </div>
                         </div>
                     </footer>
                 </div>
-                <!-- footer En -->
             </div>
-            <!-- Container-fluid End -->
+            <!-- Reports Section End -->
         </div>
-        <!-- Page Body End -->
+        <!-- Page Body End-->
     </div>
-    <!-- page-wrapper End -->
+    <!-- page-wrapper End-->
 
     <!-- Modal Start -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -527,7 +611,6 @@
                     <h5 class="modal-title" id="staticBackdropLabel">Logging Out</h5>
                     <p>Are you sure you want to log out?</p>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
                     <div class="button-box">
                         <button type="button" class="btn btn--no" data-bs-dismiss="modal">No</button>
                         <button type="button" class="btn  btn--yes btn-primary">Yes</button>
@@ -555,35 +638,32 @@
     <!-- Sidebar js -->
     <script src="assets/js/config.js"></script>
 
-    <!-- bootstrap tag-input js -->
-    <script src="assets/js/bootstrap-tagsinput.min.js"></script>
+    <!-- tooltip init js -->
+    <script src="assets/js/tooltip-init.js"></script>
+
+    <!-- Plugins js -->
     <script src="assets/js/sidebar-menu.js"></script>
+    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
+    <script src="assets/js/notify/index.js"></script>
+
+    <!-- Apexchar js -->
+    <script src="assets/js/chart/apex-chart/apex-chart1.js"></script>
+    <script src="assets/js/chart/apex-chart/moment.min.js"></script>
+    <script src="assets/js/chart/apex-chart/apex-chart.js"></script>
+    <script src="assets/js/chart/apex-chart/stock-prices.js"></script>
+    <script src="assets/js/chart/apex-chart/chart-custom.js"></script>
 
     <!-- customizer js -->
     <script src="assets/js/customizer.js"></script>
 
-    <!--Dropzon js -->
-    <script src="assets/js/dropzone/dropzone.js"></script>
-    <script src="assets/js/dropzone/dropzone-script.js"></script>
-
-    <!-- Plugins js -->
-    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
-    <script src="assets/js/notify/index.js"></script>
-
-    <!-- ck editor js -->
-    <script src="assets/js/ckeditor.js"></script>
-    <script src="assets/js/ckeditor-custom.js"></script>
-
-    <!-- select2 js -->
-    <script src="assets/js/select2.min.js"></script>
-    <script src="assets/js/select2-custom.js"></script>
+    <!-- ratio js -->
+    <script src="assets/js/ratio.js"></script>
 
     <!-- sidebar effect -->
     <script src="assets/js/sidebareffect.js"></script>
 
     <!-- Theme js -->
     <script src="assets/js/script.js"></script>
-
 </body>
 
 </html>
